@@ -1,5 +1,25 @@
 {
+  "name": "bootstrap-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacopedia/bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "zac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacopedia/bootstrap/issues"
+  },
+  "homepage": "https://github.com/zacopedia/bootstrap#readme",
+  "description": "",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "dart-sass": "^1.25.0"
   }
 }
