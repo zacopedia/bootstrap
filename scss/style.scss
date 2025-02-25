@@ -1,12 +1,12 @@
 @use'custom';
 
 // IMPORT THE SECTIONS
-@use'./sections/navbar';
-@use'./sections/intro-section';
-@use'./sections/our-strory';
-@use'./sections/mix-polishes';
-@use'./sections/treatments-prices';
-@use'./sections/our-products';
-@use'./sections/fllow-us';
-@use'./sections/contact';
+@use'navbar';
+@use'intro-section';
+@use'our-strory';
+@use'mix-polishes';
+@use'treatments-prices';
+@use'our-products';
+@use'fllow-us';
+@use'contact';
 
