@@ -1,0 +1,13 @@
+
+@use '../custom' as *;
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: $white;
+  }

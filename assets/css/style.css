@@ -11844,8 +11844,33 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.colors {
-  background-color: blue;
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #fff;
+}
+
+.btn-nav {
+  border: 1px solid #fff;
+}
+
+.navbar {
+  z-index: 1000;
+}
+.navbar .nav-link {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.intro-section {
+  position: absolute;
+  top: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

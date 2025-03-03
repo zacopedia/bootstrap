@@ -1,5 +1,9 @@
 @use 'custom';
 
+// IMPORT COMPONENTS
+@use 'components/typography';
+@use 'components/buttons';
+
 // IMPORT THE SECTIONS
 @use 'sections/navbar';
 @use 'sections/intro-section';

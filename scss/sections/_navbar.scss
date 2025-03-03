@@ -1,3 +1,23 @@
-.colors {
-    background-color: blue;
+@use '../custom' as *;
+
+.navbar {
+   z-index: 1000;
+//    .navbar nav {
+//     padding-right: 3.1875rem;
+// }
+
+.nav-link {
+    color: $white;
+    font-size: 1rem;
 }
+
+// .nav-center {
+//     margin-left: 410px !important;
+// }
+
+
+}
+
+
+
+
