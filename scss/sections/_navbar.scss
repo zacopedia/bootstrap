@@ -1,7 +1,9 @@
 @use '../custom' as *;
 
 .navbar {
+    position: relative;
    z-index: 1000;
+   height: 80px;
 //    .navbar nav {
 //     padding-right: 3.1875rem;
 // }
