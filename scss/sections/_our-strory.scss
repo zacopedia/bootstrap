@@ -1,39 +1,49 @@
 @use '../custom' as *;
 
+%section-title {
+    color: $primary;
+    padding-bottom: 15px;
+}
 
+%desc-color {
+    color: $gray-600;
+    font-size: 0.75rem;
+}
+
+.desc {
+    @extend %desc-color;
+  }
+
+  .desc-product{
+    @extend %desc-color;
+    width: 200px;
+    max-width: 100%;
+  }
+  
+  .desc-para {
+      @extend %desc-color;
+      
+  }
 
 section {
     margin-top: 120px;
-  
+}
+
+
     .our-story-section {
-      padding: 0 100px;
+    padding: 0 100px;
     //   display: flex;
     //   flex-direction: column;
     //   align-items: center;
     //   text-align: center;
-    }
- 
-    // .par-row {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     text-align: center;
-    // }
-  
     
-
-    .desc {
-        color: $gray-600;
-        font-size: 0.75rem;
     }
 
-    .desc-para {
-        color: $gray-600;
-        font-size: 0.75rem;
-        width: 200px;
-        max-width: 100%;
-      
-        
-
+.img-story {
+    margin-top: 60px;
+    .section-title {
+        @extend %section-title
     }
 }
+
+
