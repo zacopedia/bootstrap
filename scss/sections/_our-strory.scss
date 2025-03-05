@@ -7,7 +7,20 @@ section {
   
     .our-story-section {
       padding: 0 100px;
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   text-align: center;
     }
+ 
+    // .par-row {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     text-align: center;
+    // }
+  
+    
 
     .desc {
         color: $gray-600;
@@ -17,6 +30,10 @@ section {
     .desc-para {
         color: $gray-600;
         font-size: 0.75rem;
-        width: 100%;
+        width: 200px;
+        max-width: 100%;
+      
+        
+
     }
 }

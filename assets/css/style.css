@@ -11911,7 +11911,8 @@ section .desc {
 section .desc-para {
   color: #6c757d;
   font-size: 0.75rem;
-  width: 100%;
+  width: 200px;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
