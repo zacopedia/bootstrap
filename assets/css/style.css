@@ -11898,8 +11898,20 @@ body {
   background-color: #D8B192;
 }
 
-.desc {
+section {
+  margin-top: 120px;
+}
+section .our-story-section {
+  padding: 0 100px;
+}
+section .desc {
   color: #6c757d;
+  font-size: 0.75rem;
+}
+section .desc-para {
+  color: #6c757d;
+  font-size: 0.75rem;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
