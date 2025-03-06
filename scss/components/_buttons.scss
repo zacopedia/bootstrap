@@ -4,4 +4,18 @@
     border: 1px solid $white;
     border-radius: 50px;
     padding: 0.25rem 1rem;
+    color: $primary;
+}
+
+.primary-btn {
+    background-color: $primary;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    color: $white;
+    padding: 0.65rem 2rem;
+
+    &:hover {
+        background-color: lighten($color: $primary, $amount: 20%);
+        color: $primary;
+    }
 }

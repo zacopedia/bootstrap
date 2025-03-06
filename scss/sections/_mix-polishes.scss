@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+.polishes-section {
+    background-color: $primary;
+
+    .polishes-imgs {
+        margin: 40px 50px;
+    }
+}

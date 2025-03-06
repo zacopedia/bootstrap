@@ -11859,6 +11859,19 @@ body {
   border: 1px solid #fff;
   border-radius: 50px;
   padding: 0.25rem 1rem;
+  color: #D8B192;
+}
+
+.primary-btn {
+  background-color: #D8B192;
+  font-size: 0.75rem;
+  border-radius: 50px;
+  color: #fff;
+  padding: 0.65rem 2rem;
+}
+.primary-btn:hover {
+  background-color: #f3e7dd;
+  color: #D8B192;
 }
 
 .navbar {
@@ -11898,7 +11911,7 @@ body {
   background-color: #D8B192;
 }
 
-.img-story .section-title {
+.story .section-title {
   color: #D8B192;
   padding-bottom: 15px;
 }
@@ -11921,8 +11934,14 @@ section {
   padding: 0 100px;
 }
 
-.img-story {
+.story {
   margin-top: 60px;
+}
+.polishes-section {
+  background-color: #D8B192;
+}
+.polishes-section .polishes-imgs {
+  margin: 40px 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
