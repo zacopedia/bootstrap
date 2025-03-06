@@ -11941,7 +11941,17 @@ section {
   background-color: #D8B192;
 }
 .polishes-section .polishes-imgs {
-  margin: 40px 50px;
+  margin: 10px 30px;
+}
+.polishes-section .polishe-img {
+  margin-left: -25px;
+}
+.polishes-section .polishe-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.polishes-section .polishe-para {
+  font-size: 0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
