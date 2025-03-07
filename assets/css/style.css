@@ -11926,12 +11926,9 @@ body {
   max-width: 100%;
 }
 
-section {
-  margin-top: 120px;
-}
-
 .our-story-section {
   padding: 0 100px;
+  margin-top: 100px;
 }
 
 .story {
@@ -11952,6 +11949,10 @@ section {
 }
 .polishes-section .polishe-para {
   font-size: 0.75rem;
+}
+
+.price {
+  margin-left: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */

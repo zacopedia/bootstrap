@@ -14,6 +14,8 @@
     @extend %desc-color;
   }
 
+  
+
   .desc-product{
     @extend %desc-color;
     width: 200px;
@@ -25,13 +27,12 @@
       
   }
 
-section {
-    margin-top: 120px;
-}
+
 
 
     .our-story-section {
     padding: 0 100px;
+    margin-top: 100px;
     //   display: flex;
     //   flex-direction: column;
     //   align-items: center;
