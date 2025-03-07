@@ -11874,6 +11874,11 @@ body {
   color: #D8B192;
 }
 
+.section-center {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .navbar {
   position: relative;
   z-index: 1000;
@@ -11911,9 +11916,11 @@ body {
   background-color: #D8B192;
 }
 
-.story .section-title {
+.section-title {
   color: #D8B192;
   padding-bottom: 15px;
+  margin-top: 100px;
+  text-transform: uppercase;
 }
 
 .desc-para, .desc-product, .desc {
@@ -11934,6 +11941,7 @@ body {
 .story {
   margin-top: 60px;
 }
+
 .polishes-section {
   background-color: #D8B192;
 }
@@ -11952,7 +11960,7 @@ body {
 }
 
 .price {
-  margin-left: 350px;
+  margin-left: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
