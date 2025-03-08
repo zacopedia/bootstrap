@@ -11890,6 +11890,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -11897,11 +11898,8 @@ body {
     height: 100vh;
     z-index: 999;
     background-color: red;
-    transform: translateX(-100%);
+    transform: translateX(50%);
     transition: transform 0.3s ease-in-out;
-  }
-  .navbar .navbar-nav.show {
-    transform: translateX(0);
   }
   .navbar .btn-nav {
     display: none;
