@@ -11884,9 +11884,40 @@ body {
   z-index: 1000;
   height: 80px;
 }
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background-color: red;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .navbar .navbar-nav.show {
+    transform: translateX(0);
+  }
+  .navbar .btn-nav {
+    display: none;
+  }
+}
 .navbar .nav-link {
   color: #fff;
   font-size: 1rem;
+}
+.navbar .navbar-toggler {
+  border: non !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  filter: invert(1);
 }
 
 .intro-section {
