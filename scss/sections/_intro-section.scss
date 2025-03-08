@@ -19,7 +19,14 @@
     }
     .right-img {
         padding: 0;
+        height: auto;
+        
+       
     }
+
+    
+
+  
 }
 
 .welcome-filed {
@@ -28,4 +35,10 @@
     bottom: 0;
     width: 100%;
     background-color: $primary;
+}
+
+@media (max-width: 576px) {
+    .right-img{
+      max-height: 500px; /* Even smaller height for mobile */
+    }
 }

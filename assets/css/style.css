@@ -11906,6 +11906,7 @@ body {
 }
 .intro-section .right-img {
   padding: 0;
+  height: auto;
 }
 
 .welcome-filed {
@@ -11916,6 +11917,11 @@ body {
   background-color: #D8B192;
 }
 
+@media (max-width: 576px) {
+  .right-img {
+    max-height: 500px; /* Even smaller height for mobile */
+  }
+}
 .section-title {
   color: #D8B192;
   padding-bottom: 15px;
