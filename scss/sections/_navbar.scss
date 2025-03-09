@@ -1,15 +1,19 @@
 @use '../custom' as *;
 
 .navbar {
-    position: relative;
+  position: relative;
    z-index: 1000;
    height: 80px;
 
-   &-nav {
-   
-   
- 
-   }
+   .nav-link {
+    color: $white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &:hover {
+        color: $primary;
+    }
+}
+
 
    @include media-breakpoint-down(lg) {
       .navbar-nav {
@@ -17,8 +21,26 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: red;
+        width: 50%;
+        background-color: $primary;
       }
+
+
+.navbar-toggler {
+    border: non !important;
+    box-shadow: none !important;
+    outline: none !important;
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }   
+
+    .nav-link {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+}
+
    }
 //    .navbar nav {
 //     padding-right: 3.1875rem;
@@ -47,31 +69,14 @@
 //     ul {
 //         text-align: center;
 //     }
-    .btn-nav {
-        display: none;
-    }
+  
 
    
 //  }
 
-.nav-link {
-    color: $white;
-    font-size: 1rem;
-}
 
 
 
-.navbar-toggler {
-    border: non !important;
-    box-shadow: none !important;
-    outline: none !important;
-
-    .navbar-toggler-icon {
-        filter: invert(1);
-    }
-  
-   
-}
 
 // .nav-center {
 //     margin-left: 410px !important;
