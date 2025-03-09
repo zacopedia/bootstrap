@@ -11868,12 +11868,18 @@ body {
   border-radius: 50px;
   color: #fff;
   padding: 0.65rem 2rem;
+  margin-top: 1rem;
 }
 .primary-btn:hover {
   background-color: #f3e7dd;
   color: #D8B192;
 }
 
+@media (max-width: 991.98px) {
+  .primary-btn {
+    margin-top: 0;
+  }
+}
 .section-center {
   padding-left: 100px;
   padding-right: 100px;
@@ -11912,6 +11918,9 @@ body {
   .navbar .navbar-toggler .nav-link {
     font-size: 1.5rem;
     margin: 10px 0;
+  }
+  .navbar .btn-nav {
+    display: none;
   }
 }
 
@@ -11953,7 +11962,7 @@ body {
 .section-title {
   color: #D8B192;
   padding-bottom: 15px;
-  margin-top: 100px;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 
@@ -11976,6 +11985,14 @@ body {
   margin-top: 60px;
 }
 
+@media (max-width: 767.98px) {
+  .section-title {
+    margin-top: 0px;
+  }
+  .product {
+    margin-bottom: 40px;
+  }
+}
 .polishes-section {
   background-color: #D8B192;
 }

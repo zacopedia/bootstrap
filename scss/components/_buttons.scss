@@ -13,9 +13,18 @@
     border-radius: 50px;
     color: $white;
     padding: 0.65rem 2rem;
+    margin-top: 1rem;
 
     &:hover {
         background-color: lighten($color: $primary, $amount: 20%);
         color: $primary;
+    }
+}
+
+
+
+@include media-breakpoint-down(lg) {
+    .primary-btn {
+        margin-top: 0;
     }
 }
