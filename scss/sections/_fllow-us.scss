@@ -1,5 +1,18 @@
 @use '../custom' as *;
+.follow-section {
+    margin-top: 100px;
+  
+    .follow-band {
+        background-color: $white;
+        padding: 25px 50px;
 
+    }
+  
+
+    .follow-title {
+        color: $primary;
+    }
+}
 .fllow {
     
     max-width: 100%;

@@ -12036,6 +12036,17 @@ body {
     width: 20% !important;
   }
 }
+.follow-section {
+  margin-top: 100px;
+}
+.follow-section .follow-band {
+  background-color: #fff;
+  padding: 25px 50px;
+}
+.follow-section .follow-title {
+  color: #D8B192;
+}
+
 .fllow {
   max-width: 100%;
   width: 19.65%;
