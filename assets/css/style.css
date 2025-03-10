@@ -12036,5 +12036,10 @@ body {
     width: 20% !important;
   }
 }
+.fllow {
+  max-width: 100%;
+  width: 19.65%;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
