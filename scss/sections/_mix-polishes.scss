@@ -21,3 +21,9 @@
         font-size: 0.75rem;
     }
 }
+
+@include media-breakpoint-down(md) {
+    .polishe-img {
+        width: 20% !important;
+    }
+}
